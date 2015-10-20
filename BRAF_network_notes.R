@@ -2,8 +2,8 @@
 ## BRAF Network exploration
 
 ### Load in datasets
-mut_data <- read.csv("/Users/aolow/Box\ Sync/Documents/VantveerLab/MS1_SNPs/120214_mut_in_pepts_cosmic_corrected.csv")
-nodes <- read.csv("/Users/aolow/Dropbox/MS1_Rcode/NEW_NODES3.csv", as.is=T)
+mut_data <- read.csv("~120214_mut_in_pepts_cosmic.csv")
+nodes <- read.csv("~NEW_NODES3.csv", as.is=T)
 #n_sub <- read.csv("/Users/aolow/Dropbox/MS1_Rcode/100214_nodes_substrates.csv")
 nodes <- nodes[,1:3]
 
